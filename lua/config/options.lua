@@ -3,5 +3,6 @@
 -- Add any additional options here
 
 -- vim.opt.relativenumber = false
-vim.opt.tabstop = 4
-vim.opt.shiftwidth = 4
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.api.nvim_set_option_value("colorcolumn", "80", {})
