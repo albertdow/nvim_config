@@ -6,3 +6,8 @@
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.api.nvim_set_option_value("colorcolumn", "80", {})
+vim.diagnostic.config({ virtual_text = true })
+
+-- python
+vim.g.lazyvim_python_lsp = "basedpyright"
+vim.g.lazyvim_python_ruff = "ruff"
